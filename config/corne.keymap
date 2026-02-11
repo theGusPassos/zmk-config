@@ -35,8 +35,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE       &kp N1     &kp N2            &kp N3             &kp N4     &kp N5       &kp N6                    &kp N7                     &kp N8        &kp N9     &kp N0    &kp BSPC
-&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS   &kp MINUS    &kp LEFT                  &kp DOWN                   &kp UP        &kp RIGHT  &kp HOME  &kp GRAVE
+&kp GRAVE       &kp N1     &kp N2            &kp N3             &kp N4     &kp N5       &kp N6                    &kp N7                     &kp N8        &kp N9     &kp N0    &kp DELETE
+&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &kp MINUS    &kp LEFT                  &kp DOWN                   &kp UP        &kp RIGHT  &kp HOME  &kp GRAVE
 &kp F2          &kp Z      &kp F12           &kp LG(C)          &kp LG(V)  &kp PIPE     &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp CAPSLOCK  &kp PLUS   &mo 3     &kp PRINTSCREEN
                                              &kp LGUI           &trans     &none        &kp PRINTSCREEN           &kp RIGHT_SHIFT            &kp RALT
             >;
