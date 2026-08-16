@@ -50,7 +50,7 @@
             bindings = <
 &kp TAB    &kp F1   &kp F2   &kp F3    &kp F4  &kp F5       &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp BSPC
 &kp LCTRL  &kp F11  &kp F12  &trans    &trans  &trans       &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH      &kp V
-&kp LSHFT  &tog 3   &linux   &trans    &trans  &trans       &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)  &kp LS(PIPE)
+&kp LSHFT  &to 3    &linux   &trans    &trans  &trans       &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)  &kp LS(PIPE)
                              &kp LGUI  &trans  &kp SPACE    &kp ENTER      &trans        &trans
             >;
         };
@@ -95,7 +95,7 @@
             bindings = <
 &kp TAB    &kp F1   &kp F2   &kp F3         &kp F4        &kp F5          &kp F6     &kp F7     &kp F8    &kp F9    &kp F10   &kp BSPC
 &kp LCTRL  &kp F11  &kp F12  &kp PAGE_DOWN  &kp PAGE_UP   &trans          &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &tog 0   &mac     &trans         &bt BT_SEL 1  &bt BT_SEL 0    &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
+&kp LSHFT  &to 0    &mac     &trans         &bt BT_SEL 1  &bt BT_SEL 0    &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
                              &kp LEFT_ALT   &trans        &kp SPACE       &kp RET    &trans     &kp RALT
             >;
         };
