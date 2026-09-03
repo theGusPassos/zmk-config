@@ -48,10 +48,10 @@
 
         linux_2 {
             bindings = <
-&kp TAB    &kp F1   &kp F2   &kp F3    &kp F4  &kp F5       &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp BSPC
-&kp LCTRL  &kp F11  &kp F12  &trans    &trans  &trans       &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH      &kp V
-&kp LSHFT  &to 3    &linux   &trans    &trans  &trans       &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)  &kp LS(PIPE)
-                             &kp LGUI  &trans  &kp SPACE    &kp ENTER      &trans        &trans
+&kp TAB       &kp F1   &kp F2   &kp F3    &kp F4  &kp F5       &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp BSPC
+&kp CAPSLOCK  &kp F11  &kp F12  &trans    &trans  &trans       &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH      &kp V
+&kp LSHFT     &to 3    &linux   &trans    &trans  &trans       &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)  &kp LS(PIPE)
+                                &kp LGUI  &trans  &kp SPACE    &kp ENTER      &trans        &trans
             >;
         };
 
